@@ -1,0 +1,21 @@
+# Core framework
+streamlit>=1.28.0  # Modern web app framework
+
+# AI & ML stack
+langchain-community>=0.0.10  # LangChain integrations
+langchain-text-splitters>=0.0.1  # Text processing
+langchain-ollama>=0.1.0  # Ollama integration
+langchain-huggingface>=0.0.2  # Embeddings
+
+# Vector database
+faiss-cpu>=1.7.4  # Facebook AI Similarity Search
+
+# PDF processing
+pypdf>=3.17.0  # PDF text extraction
+
+# Embeddings
+sentence-transformers>=2.2.2  # HuggingFace sentence embeddings
+
+# Utilities
+python-dotenv>=1.0.0  # Environment management
+pandas>=2.0.0  # Data handling (optional)
