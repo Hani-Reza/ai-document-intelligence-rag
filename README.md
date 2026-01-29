@@ -41,27 +41,27 @@ A professional-grade AI chatbot that lets you interact with PDF documents using 
 ### Installation
 
 
-# 1. Clone the repository
+ 1. Clone the repository
 git clone https://github.com/Hani-Reza/ai-document-intelligence-rag.git
 cd ai-document-intelligence-rag
 
-# 2. Install Python dependencies
+ 2. Install Python dependencies
 pip install -r requirements.txt
 
-# 3. Make sure Ollama is running
+ 3. Make sure Ollama is running
 ollama serve
 
-# 4. Configure environment variables
+ 4. Configure environment variables
 bash 
 cp .env.example .env
  Edit .env with your preferred settings
-# Key configurations:
-# EMBEDDING_MODEL=all-MiniLM-L6-v2
-# LLM_MODEL=llama3:7b
-# CHUNK_SIZE=1000
-# CHUNK_OVERLAP=200
+-  Key configurations:
+- EMBEDDING_MODEL=all-MiniLM-L6-v2
+-  LLM_MODEL=llama3:7b
+-  CHUNK_SIZE=1000
+-  CHUNK_OVERLAP=200
 
-# 5. Run the application
+ 5. Run the application
 streamlit run app.py
 
 ### System Architecture
